@@ -1,0 +1,48 @@
+.container__footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #304268;
+    align-items: center;
+}
+.ul__content{
+    margin-top: 45px;
+    text-align: center;
+    font-family: $primaryFontFamily;
+    text-transform:uppercase;
+    line-height: 30px;
+    font-weight: 400;
+    color:white;
+    list-style: none;
+    font-size: 16px;
+}
+.ul__social{
+    margin-top: 30px;
+    text-align: center;
+    font-family: $primaryFontFamily;
+    text-transform:uppercase;
+    line-height: 30px;
+    font-weight: 400;
+    color:white;
+    list-style: none;
+    font-size: 16px;
+}
+.copyright {
+    display:flex;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
+    font-family: $primaryFontFamily;
+    line-height: 30px;
+    font-weight: 400;
+    color:white;
+    font-size: 16px;
+}
+.heart {
+    color:red;
+}
+.link { 
+    color: inherit;
+    text-decoration: none;
+}
+
+
