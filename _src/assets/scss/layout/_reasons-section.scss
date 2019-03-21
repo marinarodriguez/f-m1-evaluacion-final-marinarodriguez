@@ -1,12 +1,28 @@
 .reasons-section{
     background-color: #eff9ff;
+    padding-top: 30px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 45px;
+}
+.item--1{
+    grid-row: 1/2;
+}
+.item--2{
+    grid-row: 2/3;
+}
+.item--3{
+    grid-row: 3/4;
 }
 .h2__reasons{
     font-family: $secondaryFontFamily;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
-    margin:30px 15px 15px 15px;
+    margin-bottom: 45px;
     text-align: center;
 }
 .h3__reasons{
@@ -22,6 +38,12 @@
     text-align:center;
     font-size:18px;
     padding: 0 70px 0 70px;
+}
+.button__reasons--container
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
 }
 .button__reasons {
     -webkit-appearance: none;
