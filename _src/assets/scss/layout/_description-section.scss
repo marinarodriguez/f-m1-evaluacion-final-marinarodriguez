@@ -1,0 +1,39 @@
+.description-section {
+    background-color: white;
+    margin: 30px 15px 45px 15px;
+}
+.small__description {
+    font-family:$primaryFontFamily;
+    color: $colorLightBlue;
+    font-size: 14px;
+    line-height: 30px;
+    }
+.h2__description {
+    font-family: $secondaryFontFamily;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom:15px;
+}
+.p__description {
+    font-family: $primaryFontFamily;
+}
+.button__description {
+        -webkit-appearance: none;
+        appearance:none;
+        -moz-appearance:none;
+        margin-top: 45px;
+        width: 76px;
+        height: 45px;
+        background-color: white;
+        border: solid 2px $colorBrightOrange;
+        border-radius: 20px 20px;
+        color: $colorBrightOrange;
+        font-family: $primaryFontFamily;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        
+}
