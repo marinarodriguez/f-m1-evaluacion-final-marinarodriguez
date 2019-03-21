@@ -6,6 +6,21 @@
     background-color: rgb(83, 83, 83);
     text-align: center;
 }
+.menu__header--div{
+    display:flex;
+}
+.menu__header {
+    position: fixed;
+    -webkit-appearance: none;
+    appearance:none;
+    -moz-appearance:none;
+    width: 44px;
+    height: 44px;
+    background-color: $colorCerulean;
+    border: none;
+    color: white;
+    font-size: 16px;
+  }
 .header__h1 {
     margin: 284px 15px 0 15px;
     font-family: $secondaryFontFamily;
@@ -25,12 +40,11 @@
     margin: 45px 0 53px;
     width: 45px;
     height: 45px;
+    padding-top: 5px;
     background-color: white;
     border: none;
     border-radius: 50%;
     color: white;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
   }
