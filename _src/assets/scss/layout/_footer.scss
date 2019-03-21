@@ -1,3 +1,23 @@
+.page__footer{
+    position: relative;
+}
+.button-arrow{
+    z-index: 1;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+}
 .container__footer {
     display: flex;
     flex-direction: column;
