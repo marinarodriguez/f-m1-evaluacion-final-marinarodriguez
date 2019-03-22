@@ -26,6 +26,10 @@
     color: white;
     font-size: 16px;
     cursor: pointer;
+    transition: background-color ease 1s;
+    &:hover{
+        background-color: $colorBrightOrange;
+    }
   }
 .header__h1 {
     margin: 300px 15px 0 15px;
@@ -66,4 +70,8 @@
     color: white;
     display: inline-block;
     font-size: 16px;
+    transition: background-color ease 1s;
+    &:hover{
+        background-color: $colorLightBlue;
+    }
   }
