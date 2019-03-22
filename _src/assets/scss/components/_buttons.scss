@@ -1,0 +1,143 @@
+/* Buttons */
+
+/* Fixed menu button in header */ 
+
+.menu__header--container {
+    display:flex;
+    }
+.menu__header {
+    @include noButtonStylesMobile();
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    background-color: $colorCerulean;
+    border: none;
+    color:  $colorWhite;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color ease 1s, border-radius ease 1s;
+    padding: 12px;
+    &:hover{
+        background-color: $colorBrightOrange;
+        border-radius: 50%;
+    }
+}
+
+  /* Button to Next Section in header */
+
+.button__header {
+    @include noButtonStylesMobile();
+    margin: 45px 0 53px;
+    width: 45px;
+    height: 45px;
+    padding-top: 15px;
+    background-color: $colorWhite;
+    border: none;
+    border-radius: 50%;
+    color:  $colorWhite;
+    display: inline-block;
+    font-size: 16px;
+    transition: height ease 0.5s, padding-top ease 0.5s, border-radius ease 0.5s;
+    &:hover{
+        height: 60px;
+        padding-top: 30px;
+        border-radius: 5px 5px 30px 30px; 
+    }
+}
+
+  /* Button GO in description-section */
+
+.button__description {
+    @include noButtonStylesMobile();
+    margin-top: 45px;
+    width: 76px;
+    height: 45px;
+    background-color:$colorWhite;
+    border: solid 2px $colorBrightOrange;
+    border-radius: 30px 30px;
+    color: $colorBrightOrange;
+    font-family: $primaryFontFamily;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color ease 1s, color ease 1s, border ease 1s;
+        &:hover{
+            background-color: $colorBrightOrange;
+            color: $colorWhite;
+            border: solid 2px $colorBrightOrange;
+        }
+}
+
+.button__reasons--container {
+    display: flex;
+    justify-content: center;
+    padding:45px 0 60px;
+    @media all and (min-width:1200px){
+        padding-top: 60px;
+    }
+}
+
+/* Button More Reason in reasons-section */
+
+.button__reasons {
+    @include noButtonStylesMobile();
+    width: 184px;
+    height: 45px;
+    background-color:$colorBrightOrange;
+    border: solid 2px $colorBrightOrange;
+    border-radius: 30px 30px;
+    color: $colorWhite;
+    font-family: $primaryFontFamily;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color ease 1s, color ease 1s, border ease 1s;
+    &:hover{
+        background-color: $colorWhite;
+        color: $colorBrightOrange;
+        border: solid 2px $colorBrightOrange;
+    }
+}
+
+/* Button arrow to index in footer */
+
+.button-arrow{
+    z-index: 1;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    background-color: $colorWhite;
+    border: none;
+    border-radius: 50%;
+    color: $colorWhite;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    @keyframes changeshape {
+        from {
+            border-radius: 50%;
+            height: 44px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        }
+        to {
+            border-radius: 30px 30px 5px 5px;
+            height: 60px;
+            box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+        }
+    }
+    &:hover{
+        animation-name: changeshape;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards; 
+    }
+}

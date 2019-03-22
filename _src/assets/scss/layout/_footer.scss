@@ -1,39 +1,5 @@
-.page__footer{
+.page__footer {
     position: relative;
-}
-.button-arrow{
-    z-index: 1;
-    position: absolute;
-    width: 44px;
-    height: 44px;
-    background-color: $colorWhite;
-    border: none;
-    border-radius: 50%;
-    color: $colorWhite;
-    display: inline-block;
-    font-size: 16px;
-    text-align: center;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    padding-top: 10px;
-    @keyframes changeshape {
-        from {
-            border-radius: 50%;
-            height: 44px;
-            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-        }
-        to {
-            border-radius: 30px 30px 5px 5px;
-            height: 60px;
-            box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
-        }
-    }
-    &:hover{
-        animation-name: changeshape;
-        animation-duration: 0.5s;
-        animation-fill-mode: forwards; 
-    }
 }
 .container__footer {
     display: flex;
@@ -41,17 +7,17 @@
     background-color: $colorBackgroundFooter;
     align-items: center;
     padding: 60px 0 30px;
-    @media all and (min-width:768px){
+    @media all and (min-width:768px) {
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
         padding-top: 45px;
     }
-    @media all and (min-width:1200px){
+    @media all and (min-width:1200px) {
         padding: 45px 300px 30px 300px;
     }
 }
-.ul__content{
+.ul__content {
     text-align: center;
     font-family: $primaryFontFamily;
     text-transform:uppercase;
@@ -60,11 +26,11 @@
     color:$colorWhite;
     list-style: none;
     font-size: 16px;
-    @media all and (min-width:768px){
+    @media all and (min-width:768px) {
         text-align: left;
     }
 }
-.ul__social{
+.ul__social {
     margin-top: 30px;
     text-align: center;
     font-family: $primaryFontFamily;
@@ -74,7 +40,7 @@
     color:$colorWhite;
     list-style: none;
     font-size: 16px;
-    @media all and (min-width:768px){
+    @media all and (min-width:768px) {
         text-align: left;
         margin-top: 0;
     }
@@ -89,7 +55,7 @@
     font-weight: 400;
     color: $colorWhite;
     font-size: 16px;
-    @media all and (min-width:768px){
+    @media all and (min-width:768px) {
         text-align: left;
         order: -1;
         margin-top: 0;

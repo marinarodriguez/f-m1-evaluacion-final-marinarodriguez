@@ -30,26 +30,3 @@
     font-size: 20px;
     color: $colorGreyishBrown;
 }
-.button__description {
-    @include noButtonStylesMobile();
-    margin-top: 45px;
-    width: 76px;
-    height: 45px;
-    background-color:$colorWhite;
-    border: solid 2px $colorBrightOrange;
-    border-radius: 30px 30px;
-    color: $colorBrightOrange;
-    font-family: $primaryFontFamily;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    transition: background-color ease 1s, color ease 1s, border ease 1s;
-        &:hover{
-            background-color: $colorBrightOrange;
-            color: $colorWhite;
-            border: solid 2px $colorBrightOrange;
-        }
-}

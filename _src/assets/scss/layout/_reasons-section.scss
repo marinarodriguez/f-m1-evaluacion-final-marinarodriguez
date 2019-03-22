@@ -1,7 +1,7 @@
-.reasons-section{
+.reasons-section {
     background-color: $colorBackgroundReasons;
     padding-top: 30px;
-    @media all and (min-width:1200px){
+    @media all and (min-width:1200px) {
         padding-top:60px;
     }
 }
@@ -11,34 +11,34 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 45px;
-    @media all and (min-width:768px){
+    @media all and (min-width:768px) {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         grid-gap: 30px;
     }
 }
-.item--1{
+.item--1 {
     grid-row: 1/2;
-    @media all and (min-width:768px){
+    @media all and (min-width:768px) {
         grid-row: 1/2;
         grid-column: 1/2;
     }
 }
-.item--2{
+.item--2 {
     grid-row: 2/3;
-    @media all and (min-width:768px){
+    @media all and (min-width:768px) {
         grid-row: 1/2;
         grid-column: 2/3;
     }
 }
-.item--3{
+.item--3 {
     grid-row: 3/4;
-    @media all and (min-width:768px){
+    @media all and (min-width:768px) {
         grid-row: 1/2;
         grid-column: 3/4;
     }
 }
-.h2__reasons{
+.h2__reasons {
     font-family: $secondaryFontFamily;
     font-weight: 700;
     font-size: 24px;
@@ -47,18 +47,14 @@
     text-align: center;
     text-transform: capitalize;
 }
-.h3__reasons{
+.h3__reasons {
     padding: 0 15px 0 15px;
     font-family: $secondaryFontFamily;
     font-size:18px;
     font-weight: 700;
     line-height: 30px;
     text-align: center;
-    @media all and (min-width:768px){
-        font-size:24px;
-        margin-bottom: 14px;
-    }
-    @media all and (min-width:1200px){
+    @media all and (min-width:768px) {
         font-size:24px;
         margin-bottom: 14px;
     }
@@ -70,38 +66,7 @@
     font-size:18px;
     line-height: 30px;
     padding: 0 70px 0 70px;
-    @media all and (min-width:768px){
+    @media all and (min-width:768px) {
         font-size:20px;
-    }
-}
-.button__reasons--container
-{
-    display: flex;
-    justify-content: center;
-    padding:45px 0 60px;
-    @media all and (min-width:1200px){
-        padding-top: 60px;
-    }
-}
-.button__reasons {
-    @include noButtonStylesMobile();
-    width: 184px;
-    height: 45px;
-    background-color:$colorBrightOrange;
-    border: solid 2px $colorBrightOrange;
-    border-radius: 30px 30px;
-    color: $colorWhite;
-    font-family: $primaryFontFamily;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    transition: background-color ease 1s, color ease 1s, border ease 1s;
-    &:hover{
-        background-color: $colorWhite;
-        color: $colorBrightOrange;
-        border: solid 2px $colorBrightOrange;
     }
 }

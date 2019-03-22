@@ -1,3 +1,5 @@
+/* Avoid styles in mobile buttons */
+
 @mixin noButtonStylesMobile() {
     -webkit-appearance: none;
     appearance:none;

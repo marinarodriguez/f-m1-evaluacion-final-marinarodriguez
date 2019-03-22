@@ -1,4 +1,4 @@
-.header {
+.page__header {
     height: 568px;
     width: 100%;
     color: $colorWhite;
@@ -7,30 +7,10 @@
     background-size: cover;
     background-color: $colorBackgroundHeader;
     text-align: center;
-    @media all and (min-width:768px){
+    @media all and (min-width:768px) {
         height: 768px;
     }
 }
-.menu__header--div{
-    display:flex;
-}
-.menu__header {
-    @include noButtonStylesMobile();
-    position: fixed;
-    width: 44px;
-    height: 44px;
-    background-color: $colorCerulean;
-    border: none;
-    color:  $colorWhite;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color ease 1s, border-radius ease 1s;
-    padding: 12px;
-    &:hover{
-        background-color: $colorBrightOrange;
-        border-radius: 50%;
-    }
-  }
 .header__h1 {
     margin: 300px 15px 0 15px;
     font-family: $secondaryFontFamily;
@@ -40,13 +20,13 @@
     font-weight: 700;
     display: inline-block;
     text-align: center;
-    @media all and (min-width:768px){
+    @media all and (min-width:768px) {
         font-size: 80px;
         line-height: 106px;
         margin-top: 384px;
         max-width: 720px;
     }
-    @media all and (min-width:1200px){
+    @media all and (min-width:1200px) {
         font-size: 100px;
         line-height: 132px;
         max-width: none;
@@ -56,26 +36,7 @@
     margin-top: 20px;
     font-family: $primaryFontFamily;
     font-size: 16px;
-    @media all and (min-width:768px){
+    @media all and (min-width:768px) {
         font-size: 24px;
     }
 }
-.button__header {
-    @include noButtonStylesMobile();
-    margin: 45px 0 53px;
-    width: 45px;
-    height: 45px;
-    padding-top: 15px;
-    background-color: $colorWhite;
-    border: none;
-    border-radius: 50%;
-    color:  $colorWhite;
-    display: inline-block;
-    font-size: 16px;
-    transition: height ease 0.5s, padding-top ease 0.5s, border-radius ease 0.5s;
-    &:hover{
-        height: 60px;
-        padding-top: 30px;
-        border-radius: 5px 5px 30px 30px; 
-    }
-  }
