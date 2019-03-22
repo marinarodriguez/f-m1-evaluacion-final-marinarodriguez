@@ -1,11 +1,11 @@
 .header {
     height: 568px;
     width: 100%;
-    color: white;
+    color: $colorWhite;
     background-image: url('../images/cover.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(27, 27, 27);
+    background-color: $colorBackgroundHeader;
     text-align: center;
     @media all and (min-width:768px){
         height: 768px;
@@ -23,7 +23,7 @@
     height: 44px;
     background-color: $colorCerulean;
     border: none;
-    color: white;
+    color:  $colorWhite;
     font-size: 16px;
     cursor: pointer;
     transition: background-color ease 1s;
@@ -38,14 +38,18 @@
     font-size: 42px;
     line-height: 55px;
     font-weight: 700;
+    display: inline-block;
+    text-align: center;
     @media all and (min-width:768px){
         font-size: 80px;
         line-height: 106px;
         margin-top: 384px;
+        max-width: 720px;
     }
     @media all and (min-width:1200px){
         font-size: 100px;
         line-height: 132px;
+        max-width: none;
     }
 }
 .header__p {
@@ -64,10 +68,10 @@
     width: 45px;
     height: 45px;
     padding-top: 5px;
-    background-color: white;
+    background-color: $colorWhite;
     border: none;
     border-radius: 50%;
-    color: white;
+    color:  $colorWhite;
     display: inline-block;
     font-size: 16px;
     transition: background-color ease 1s;

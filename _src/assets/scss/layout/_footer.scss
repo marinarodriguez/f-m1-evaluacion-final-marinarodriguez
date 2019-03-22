@@ -34,10 +34,9 @@
 .container__footer {
     display: flex;
     flex-direction: column;
-    background-color: $colorDarkBlue;
+    background-color: $colorBackgroundFooter;
     align-items: center;
-    padding-bottom:30px;
-    padding-top:60px;
+    padding: 60px 0 30px;
     @media all and (min-width:768px){
         flex-direction: row;
         justify-content: space-around;
@@ -49,13 +48,12 @@
     }
 }
 .ul__content{
-
     text-align: center;
     font-family: $primaryFontFamily;
     text-transform:uppercase;
     line-height: 30px;
     font-weight: 400;
-    color:white;
+    color:$colorWhite;
     list-style: none;
     font-size: 16px;
     @media all and (min-width:768px){
@@ -69,7 +67,7 @@
     text-transform:uppercase;
     line-height: 30px;
     font-weight: 400;
-    color:white;
+    color:$colorWhite;
     list-style: none;
     font-size: 16px;
     @media all and (min-width:768px){
@@ -80,8 +78,8 @@
 .copyright {
     display:flex;
     flex-direction: column;
-    margin-top: 30px;
     text-align: center;
+    margin-top: 30px;
     font-family: $primaryFontFamily;
     line-height: 30px;
     font-weight: 400;
@@ -93,8 +91,8 @@
         margin-top: 0;
     }
 }
-.heart {
-    color:red;
+.copyright--heart {
+    color:$colorBrightOrange;
 }
 .link { 
     color: inherit;
