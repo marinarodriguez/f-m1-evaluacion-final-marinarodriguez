@@ -1,8 +1,16 @@
+/* Core */
+
 @import 'core/variables';
 @import 'core/base';
 @import 'core/mixins';
+
+/* Layout */
 
 @import 'layout/header';
 @import 'layout/description-section';
 @import 'layout/reasons-section';
 @import 'layout/footer';
+
+/* Components */
+
+@import 'components/buttons';
