@@ -4,6 +4,9 @@
         @media all and (min-width:768px){
             margin: 30px 40px 45px 40px;
         }
+        @media all and (min-width:1200px){
+            padding: 0 340px 0 340px;
+        }
 }
 .small__description {
     font-family:$primaryFontFamily;

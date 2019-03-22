@@ -23,6 +23,14 @@
     flex-direction: column;
     background-color: #304268;
     align-items: center;
+    @media all and (min-width:768px){
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    @media all and (min-width:1200px){
+        padding: 0 340px 0 340px;
+    }
 }
 .ul__content{
     margin-top: 45px;
@@ -34,6 +42,11 @@
     color:white;
     list-style: none;
     font-size: 16px;
+    @media all and (min-width:768px){
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 .ul__social{
     margin-top: 30px;
@@ -45,6 +58,9 @@
     color:white;
     list-style: none;
     font-size: 16px;
+    @media all and (min-width:768px){
+        text-align: left;
+    }
 }
 .copyright {
     display:flex;
@@ -56,6 +72,10 @@
     font-weight: 400;
     color:white;
     font-size: 16px;
+    @media all and (min-width:768px){
+        text-align: left;
+        order: -1;
+    }
 }
 .heart {
     color:red;
