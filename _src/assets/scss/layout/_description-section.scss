@@ -25,15 +25,13 @@
     font-family: $primaryFontFamily;
 }
 .button__description {
-        -webkit-appearance: none;
-        appearance:none;
-        -moz-appearance:none;
+        @include noButtonStylesMobile();
         margin-top: 45px;
         width: 76px;
         height: 45px;
         background-color: white;
         border: solid 2px $colorBrightOrange;
-        border-radius: 20px 20px;
+        border-radius: 30px 30px;
         color: $colorBrightOrange;
         font-family: $primaryFontFamily;
         font-size: 20px;
