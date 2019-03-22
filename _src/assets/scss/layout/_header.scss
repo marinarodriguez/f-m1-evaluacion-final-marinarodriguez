@@ -25,6 +25,7 @@
     font-size: 16px;
     cursor: pointer;
     transition: background-color ease 1s, border-radius ease 1s;
+    padding: 12px;
     &:hover{
         background-color: $colorBrightOrange;
         border-radius: 50%;
@@ -64,16 +65,17 @@
     margin: 45px 0 53px;
     width: 45px;
     height: 45px;
-    padding-top: 5px;
+    padding-top: 15px;
     background-color: $colorWhite;
     border: none;
     border-radius: 50%;
     color:  $colorWhite;
     display: inline-block;
     font-size: 16px;
-    transition: height ease 0.5s, padding-top ease 0.5s;
+    transition: height ease 0.5s, padding-top ease 0.5s, border-radius ease 0.5s;
     &:hover{
         height: 60px;
-        padding-top: 15px;
+        padding-top: 30px;
+        border-radius: 5px 5px 30px 30px; 
     }
   }

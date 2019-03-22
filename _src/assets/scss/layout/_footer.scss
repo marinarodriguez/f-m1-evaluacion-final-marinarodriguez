@@ -17,18 +17,23 @@
     transform: translate(-50%, -50%);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     padding-top: 10px;
-    @keyframes changecolor {
+    @keyframes changeshape {
         from {
-            background-color: $colorWhite;
+            border-radius: 50%;
+            height: 44px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
         }
         to {
-            background-color: $colorDarkBlue;
+            border-radius: 30px 30px 5px 5px;
+            height: 60px;
+            box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
         }
     }
-     &:hover{
-        animation-name: changecolor;
-        animation-duration: 2s;
-     }
+    &:hover{
+        animation-name: changeshape;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards; 
+    }
 }
 .container__footer {
     display: flex;
