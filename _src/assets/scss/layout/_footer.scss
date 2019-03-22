@@ -6,10 +6,10 @@
     position: absolute;
     width: 44px;
     height: 44px;
-    background-color: white;
+    background-color: $colorWhite;
     border: none;
     border-radius: 50%;
-    color: white;
+    color: $colorWhite;
     display: inline-block;
     font-size: 16px;
     text-align: center;
@@ -19,7 +19,7 @@
     padding-top: 10px;
     @keyframes changecolor {
         from {
-            background-color: #fff;
+            background-color: $colorWhite;
         }
         to {
             background-color: $colorDarkBlue;
@@ -83,7 +83,7 @@
     font-family: $primaryFontFamily;
     line-height: 30px;
     font-weight: 400;
-    color:white;
+    color: $colorWhite;
     font-size: 16px;
     @media all and (min-width:768px){
         text-align: left;

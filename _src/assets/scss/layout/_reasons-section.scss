@@ -54,13 +54,25 @@
     font-weight: 700;
     line-height: 30px;
     text-align: center;
+    @media all and (min-width:768px){
+        font-size:24px;
+        margin-bottom: 14px;
+    }
+    @media all and (min-width:1200px){
+        font-size:24px;
+        margin-bottom: 14px;
+    }
 }
 .p__reasons{
     font-family: $primaryFontFamily;
     padding: 0 15px 0 15px;
     text-align:center;
     font-size:18px;
+    line-height: 30px;
     padding: 0 70px 0 70px;
+    @media all and (min-width:768px){
+        font-size:20px;
+    }
 }
 .button__reasons--container
 {

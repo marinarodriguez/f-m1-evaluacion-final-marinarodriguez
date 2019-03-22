@@ -1,6 +1,7 @@
 .description-section {
-    background-color: rgb(255, 255, 255);
+    background-color:$colorWhite;
     margin: 30px 15px 45px 15px;
+    line-height: 30px;
         @media all and (min-width:768px){
             margin: 30px 40px 45px 40px;
         }
@@ -16,18 +17,17 @@
     }
 .h2__description {
     font-family: $secondaryFontFamily;
+    line-height: 30px;
     font-weight: 700;
     font-size: 24px;
-    line-height: 30px;
     margin-bottom:15px;
     @media all and (min-width:768px){
-        margin-bottom: 30px;
+        line-height: 45px;
     }
 }
 .p__description {
     font-family: $primaryFontFamily;
     font-size: 20px;
-    line-height: 30px;
     color: $colorGreyishBrown;
 
 }
@@ -36,7 +36,7 @@
     margin-top: 45px;
     width: 76px;
     height: 45px;
-    background-color: white;
+    background-color:$colorWhite;
     border: solid 2px $colorBrightOrange;
     border-radius: 30px 30px;
     color: $colorBrightOrange;
@@ -50,7 +50,7 @@
     transition: background-color ease 1s, color ease 1s, border ease 1s;
         &:hover{
             background-color: $colorDarkBlue;
-            color: white;
+            color: $colorWhite;
             border: solid 2px $colorDarkBlue;
         }
 }
