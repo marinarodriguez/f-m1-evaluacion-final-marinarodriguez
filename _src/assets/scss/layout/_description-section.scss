@@ -29,7 +29,6 @@
     font-family: $primaryFontFamily;
     font-size: 20px;
     color: $colorGreyishBrown;
-
 }
 .button__description {
     @include noButtonStylesMobile();
@@ -49,8 +48,8 @@
     cursor: pointer;
     transition: background-color ease 1s, color ease 1s, border ease 1s;
         &:hover{
-            background-color: $colorDarkBlue;
+            background-color: $colorBrightOrange;
             color: $colorWhite;
-            border: solid 2px $colorDarkBlue;
+            border: solid 2px $colorBrightOrange;
         }
 }

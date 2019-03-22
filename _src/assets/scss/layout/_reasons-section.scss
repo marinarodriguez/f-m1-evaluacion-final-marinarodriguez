@@ -88,7 +88,7 @@
     width: 184px;
     height: 45px;
     background-color:$colorBrightOrange;
-    border: none;
+    border: solid 2px $colorBrightOrange;
     border-radius: 30px 30px;
     color: $colorWhite;
     font-family: $primaryFontFamily;
@@ -98,8 +98,10 @@
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    transition: background-color ease 1s;
+    transition: background-color ease 1s, color ease 1s, border ease 1s;
     &:hover{
-        background-color: $colorDarkBlue;
+        background-color: $colorWhite;
+        color: $colorBrightOrange;
+        border: solid 2px $colorBrightOrange;
     }
 }
