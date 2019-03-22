@@ -1,6 +1,9 @@
 .description-section {
     background-color: rgb(255, 255, 255);
     margin: 30px 15px 45px 15px;
+        @media all and (min-width:768px){
+            margin: 30px 40px 45px 40px;
+        }
 }
 .small__description {
     font-family:$primaryFontFamily;
