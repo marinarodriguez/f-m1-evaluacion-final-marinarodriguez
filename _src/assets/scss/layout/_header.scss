@@ -7,6 +7,9 @@
     background-size: cover;
     background-color: rgb(27, 27, 27);
     text-align: center;
+    @media all and (min-width:768px){
+        height: 768px;
+    }
 }
 .menu__header--div{
     display:flex;
@@ -25,17 +28,29 @@
     cursor: pointer;
   }
 .header__h1 {
-    margin: 284px 15px 0 15px;
+    margin: 300px 15px 0 15px;
     font-family: $secondaryFontFamily;
     text-transform: uppercase;
     font-size: 42px;
     line-height: 55px;
     font-weight: 700;
+    @media all and (min-width:768px){
+        font-size: 80px;
+        line-height: 106px;
+        margin-top: 384px;
+    }
+    @media all and (min-width:1200px){
+        font-size: 100px;
+        line-height: 132px;
+    }
 }
 .header__p {
     margin-top: 20px;
     font-family: $primaryFontFamily;
     font-size: 16px;
+    @media all and (min-width:768px){
+        font-size: 24px;
+    }
 }
 .button__header {
     -webkit-appearance: none;
