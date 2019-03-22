@@ -73,7 +73,7 @@
     width: 184px;
     height: 45px;
     background-color:$colorBrightOrange;
-    border: solid 2px $colorBrightOrange;
+    border: none;
     border-radius: 20px 20px;
     color: white;
     font-family: $primaryFontFamily;
@@ -82,5 +82,9 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    
+    cursor: pointer;
+    transition: background-color ease 1s;
+    &:hover{
+        background-color: $colorDarkBlue;
+    }
 }

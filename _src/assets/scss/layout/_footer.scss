@@ -17,11 +17,24 @@
     transform: translate(-50%, -50%);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     padding-top: 10px;
+    @keyframes changecolor {
+        from {
+            background-color: #fff;
+        }
+        to {
+            background-color: $colorDarkBlue;
+        }
+    }
+     &:hover{
+        animation-name: changecolor;
+        animation-duration: 2s;
+        animation-direction: reverse;
+     }
 }
 .container__footer {
     display: flex;
     flex-direction: column;
-    background-color: #304268;
+    background-color: $colorDarkBlue;
     align-items: center;
     @media all and (min-width:768px){
         flex-direction: row;

@@ -41,5 +41,11 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        
+        cursor: pointer;
+        transition: background-color ease 1s, color ease 1s, border ease 1s;
+        &:hover{
+        background-color: $colorDarkBlue;
+        color: white;
+        border: solid 2px $colorDarkBlue;
+    }
 }
