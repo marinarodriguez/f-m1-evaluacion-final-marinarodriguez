@@ -1,6 +1,6 @@
 /* Buttons */
 
-/* Fixed menu button in header */ 
+/* Fixed menu button in hero */ 
 
 .menu__header--container {
     display:flex;
@@ -23,9 +23,9 @@
     }
 }
 
-  /* Button to Next Section in header */
+  /* Button to Next Section in hero */
 
-.button__header {
+.button__hero {
     @include noButtonStylesMobile();
     margin: 45px 0 53px;
     width: 45px;
