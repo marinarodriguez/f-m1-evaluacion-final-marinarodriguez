@@ -2,10 +2,10 @@
     background-color:$colorWhite;
     margin: 30px 15px 45px 15px;
     line-height: 30px;
-        @media all and (min-width:768px){
+        @media all and (min-width:$tabletWidth) {
             margin: 30px 40px 45px 40px;
         }
-        @media all and (min-width:1200px){
+        @media all and (min-width:$desktopWidth) {
             padding: 0 340px 0 340px;
         }
 }
@@ -21,7 +21,7 @@
     font-weight: 700;
     font-size: 24px;
     margin-bottom:15px;
-    @media all and (min-width:768px){
+    @media all and (min-width:$tabletWidth) {
         line-height: 45px;
     }
 }
