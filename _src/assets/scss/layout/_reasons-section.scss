@@ -1,6 +1,9 @@
 .reasons-section{
     background-color: $colorBackgroundReasons;
     padding-top: 30px;
+    @media all and (min-width:1200px){
+        padding-top:60px;
+    }
 }
 .grid {
     list-style: none;
@@ -64,6 +67,9 @@
     display: flex;
     justify-content: center;
     padding:45px 0 60px;
+    @media all and (min-width:1200px){
+        padding-top: 60px;
+    }
 }
 .button__reasons {
     @include noButtonStylesMobile();
